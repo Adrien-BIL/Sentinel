@@ -317,6 +317,11 @@
                                   "value": "Microsoft 365 solution for Sentinel"
                               },
                               {
+                                "label": "Microsoft 365 Defnder (Featured)",
+                                "description": "The Microsoft 365 Defender (Featured) solution for Microsoft Sentinel enables you to ingest operational logs from Microsoft 365 to gain insights into user and admin activity across your collaboration platforms such as Teams, SharePoint and Exchange.",
+                                "value": "Microsoft 365 solution for Sentinel"
+                              },
+                              {
                                   "label": "Microsoft Defender for Cloud",
                                   "description": "The Microsoft Defender for Cloud solution for Microsoft Sentinel allows you to ingest Security alerts reported in Microsoft Defender for Cloud on assessing your hybrid cloud workload's security posture.",
                                   "value": "Microsoft Defender for Cloud solution for Sentinel"
