@@ -512,7 +512,7 @@
                                 "label": "Azure Active Directory",
                                 "description": "Relevant license and Global Admin or Security Admin permission required.",
                                 "value": "AzureActiveDirectory",
-                                "enabled": true
+                                "visible": true
                             },  
                             {
                                 "label": "Azure Active Directory Identity Protection",
@@ -572,7 +572,7 @@
                                 "label": "Threat Intelligence Platforms",
                                 "description": "Global Admin or Security Admin permission required",
                                 "value": "ThreatIntelligence",
-                                "ennabled": false
+                                "visible": false
                             }
                           ],
                           "required": true
