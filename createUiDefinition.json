@@ -521,7 +521,7 @@
                             {
                                 "label": "Azure Activity",
                                 "description": "This will only bring logs from the subscription selected in Basics tab. Relevant permissions at the subscription level are required.",
-                                "value": "AzureActivity",
+                                "value": "AzureActivity"
                             },
                             {
                                 "label": "Dynamics 365",
