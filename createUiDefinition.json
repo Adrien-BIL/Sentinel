@@ -358,8 +358,7 @@
                               {
                                   "label": "Microsoft Project",
                                   "description": "Stream your Microsoft Project audit logs into Microsoft Sentinel in order to track your project activities.",
-                                  "value": "Microsoft Project solution for Sentinel",
-                                  "enabled": false
+                                  "value": "Microsoft Project solution for Sentinel"
                               },
                               {
                                   "label": "Microsoft Teams",
