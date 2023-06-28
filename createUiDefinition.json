@@ -291,6 +291,7 @@
                   {
                       "name": "enableSolutions1P",
                       "type": "Microsoft.Common.DropDown",
+                      "label": "Select Microsoft Content Hub solutions to install",
                       "placeholder": "",
                       "multiselect": true,
                       "filter": true,
@@ -304,73 +305,73 @@
                                   "label": "Azure Active Directory",
                                   "description": "The Azure Active Directory solution for Microsoft Sentinel enables you to ingest Azure Active Directory Audit,Sign-in,Provisioning,Risk Events and Risky User/Service Principal logs using Diagnostic Settings into Microsoft Sentinel.",
                                   "value": "Azure Active Directory solution for Sentinel",
-                                  "visible": true
+                                  "enabled": true
                               },
                               {
                                   "label": "Azure Activity",
                                   "description": "The Azure Activity solution for Microsoft Sentinel enables you to ingest Azure Activity Administrative, Security, Service Health, Alert, Recommendation, Policy, Autoscale and Resource Health logs using Diagnostic Settings into Microsoft Sentinel.",
                                   "value": "Azure Activity solution for Sentinel",
-                                  "visible": true
+                                  "enabled": true
                               },
                               {
                                   "label": "Dynamics 365 CE",
                                   "description": "The Microsoft Sentinel solution for Dynamics 365 CE apps provides threat monitoring, detection and incident response capabilities for Dynamics 365 CE apps.",
                                   "value": "Microsoft Sentinel Solution for Dynamics 365 CE Apps (Preview)",
-                                  "visible": false
+                                  "enabled": false
                               },
                               {
                                   "label": "Microsoft 365",
                                   "description": "The Microsoft 365 solution for Microsoft Sentinel enables you to ingest operational logs from Microsoft 365 to gain insights into user and admin activity across your collaboration platforms such as Teams, SharePoint and Exchange.",
                                   "value": "Microsoft 365 solution for Sentinel",
-                                  "visible": true
+                                  "enabled": true
                               },
                               {
                                   "label": "Microsoft Defender for Cloud",
                                   "description": "The Microsoft Defender for Cloud solution for Microsoft Sentinel allows you to ingest Security alerts reported in Microsoft Defender for Cloud on assessing your hybrid cloud workload's security posture.",
                                   "value": "Microsoft Defender for Cloud solution for Sentinel",
-                                  "visible": true
+                                  "enabled": true
                               },
                               {
                                   "label": "Microsoft Defender for Endpoint",
                                   "description": "Microsoft Defender for Endpoint is an enterprise endpoint security platform designed to help enterprise networks prevent, detect, investigate, and respond to advanced threats.",
                                   "value": "Microsoft Defender for Endpoint",
-                                  "visible": true
+                                  "enabled": true
                               },
                               {
                                   "label": "Microsoft Defender for IoT",
                                   "description": "The Microsoft Defender for IoT solution for Microsoft Sentinel allows you to ingest Security alerts reported in Microsoft Defender for IoT on assessing your Internet of Things (IoT)/Operational Technology (OT) infrastructure.",
                                   "value": "Microsoft Defender for IoT solution for Microsoft Sentinel",
-                                  "visible": false
+                                  "enabled": false
                               },
                               {
                                   "label": "Microsoft Insider Risk Management",
                                   "description": "This solution enables insider risk management teams to investigate risk-based behavior across 25+ Microsoft products. This solution is a better-together story between Microsoft Sentinel and Microsoft Purview Insider Risk Management.",
                                   "value": "Microsoft Purview Insider Risk Management",
-                                  "visible": false
+                                  "enabled": false
                               },
                               {
                                   "label": "Microsoft PowerBI",
                                   "description": "The Microsoft PowerBI solution enables you to track user activities in your PowerBI environment.",
                                   "value": "Microsoft PowerBI solution for Sentinel",
-                                  "visible": false
+                                  "enabled": false
                               },
                               {
                                   "label": "Microsoft Project",
                                   "description": "Stream your Microsoft Project audit logs into Microsoft Sentinel in order to track your project activities.",
                                   "value": "Microsoft Project solution for Sentinel",
-                                  "visible": false
+                                  "enabled": false
                               },
                               {
                                   "label": "Microsoft Teams",
                                   "description": "Microsoft Sentinel for Teams provides Teams security logs visibility and threat protection.",
                                   "value": "Microsoft Sentinel for Teams (Preview)",
-                                  "visible": true
+                                  "enabled": true
                               },
                               {
                                   "label": "Threat Intelligence",
                                   "description": "Ingest threat indicators into Microsoft Sentinel. Threat indicators can be IP addresses, domains, URLs and file hashes and can be used to correlate across log sources for known indicators of compromise and/or indicators of active attack",
                                   "value": "Threat Intelligence (Preview)",
-                                  "visible": false
+                                  "enabled": false
                               }
                           ],
                           "required": false
@@ -511,67 +512,67 @@
                                 "label": "Azure Active Directory",
                                 "description": "Relevant license and Global Admin or Security Admin permission required.",
                                 "value": "AzureActiveDirectory",
-                                "visible": true
+                                "enabled": true
                             },  
                             {
                                 "label": "Azure Active Directory Identity Protection",
                                 "description": "Relevant license and Global Admin or Security Admin permission required.",
                                 "value": "AzureActiveDirectoryIDP",
-                                "visible": true
+                                "enabled": true
                             },
                             {
                                 "label": "Azure Activity",
                                 "description": "This will only bring logs from the subscription selected in Basics tab. Relevant permissions at the subscription level are required.",
                                 "value": "AzureActivity",
-                                "visible": true
+                                "enabled": true
                             },
                             {
                                 "label": "Dynamics 365",
                                 "description": "Relevant license and Global Admin or Security Admin permission required",
                                 "value": "Dynamics365",
-                                "visible": true
+                                "enabled": true
                             },
                             {
                                 "label": "Microsoft 365 Defender",
                                 "description": "This will only enable incident and alert synchronization, no advanced hunting data will be enabled. Relevant license and Global Admin or Security Admin permission required",
                                 "value": "Microsoft365Defender",
-                                "visible": true
+                                "enabled": true
                             },
                             {
                                 "label": "Microsoft Defender for Cloud",
                                 "description": "Security Reader permission required",
                                 "value": "MicrosoftDefenderForCloud",
-                                "visible": true
+                                "enabled": true
                             },
                             {
                                 "label": "Microsoft Insider Risk Management",
                                 "description": "Relevant license and Global Admin or Security Admin permission required",
                                 "value": "OfficeIRM",
-                                "visible": false
+                                "enabled": false
                             },
                             {
                                 "label": "Microsoft PowerBI",
                                 "description": "Relevant license and Global Admin or Security Admin permission required",
                                 "value": "OfficePowerBI",
-                                "visible": false
+                                "enabled": false
                             },
                             {
                                 "label": "Microsoft Project",
                                 "description": "Relevant license and Global Admin or Security Admin permission required",
                                 "value": "Office365Project",
-                                "visible": false
+                                "enabled": false
                             },
                             {
                                 "label": "Office 365",
                                 "description": "Relevant license and Global Admin or Security Admin permission required",
                                 "value": "Office365",
-                                "visible": true
+                                "enabled": true
                             },
                             {
                                 "label": "Threat Intelligence Platforms",
                                 "description": "Global Admin or Security Admin permission required",
                                 "value": "ThreatIntelligence",
-                                "visible": false
+                                "ennabled": false
                             }
                           ],
                           "required": true
@@ -673,7 +674,7 @@
                       "type": "Microsoft.Common.CheckBox",
                       "label": "Enable Scheduled alert rules for selected Content Hub solutions and Data Connectors?",
                       "toolTip": "Select to enable Scheduled and NRT analytics rules for the solutions and connectors selected in the previous tabs",
-                      "defaultValue": true,                     
+                      "enabled": true,                     
                       "constraints": {
                           "required": false,
                           "validationMessage": "Enables Scheduled and NRT rules matching any of the selected solutions and connectors"
