@@ -22,7 +22,7 @@
                 "type": "Microsoft.Common.TextBox",
                 "label": "Resource Group name",
                 "placeholder": "",
-                "defaultValue": "francecentral",
+                "defaultValue": "RG_CSP_SENTINEL",
                 "toolTip": "Enter a resource group name",
                 "constraints": {
                     "required": true,
@@ -322,8 +322,12 @@
                               {
                                   "label": "Microsoft 365",
                                   "description": "The Microsoft 365 solution for Microsoft Sentinel enables you to ingest operational logs from Microsoft 365 to gain insights into user and admin activity across your collaboration platforms such as Teams, SharePoint and Exchange.",
-                                  "value": "Microsoft 365 solution for Sentinel",
-                                  "enabled": true
+                                  "value": "Microsoft 365 solution for Sentinel"
+                              },
+                              {
+                                "label": "Microsoft 365 Defender",
+                                "description": "The Microsoft 365 Defender Microsoft Sentinel enables you to ingest operational logs from Microsoft 365 to gain insights into user and admin activity across your collaboration platforms such as Teams, SharePoint and Exchange.",
+                                "value": "Microsoft 365 Defender solution for Sentinel"
                               },
                               {
                                   "label": "Microsoft Defender for Cloud",
