@@ -511,70 +511,57 @@
                             {
                                 "label": "Azure Active Directory",
                                 "description": "Relevant license and Global Admin or Security Admin permission required.",
-                                "value": "AzureActiveDirectory",
-                                "visible": true
+                                "value": "AzureActiveDirectory"
                             },  
                             {
                                 "label": "Azure Active Directory Identity Protection",
                                 "description": "Relevant license and Global Admin or Security Admin permission required.",
-                                "value": "AzureActiveDirectoryIDP",
-                                "enabled": true
+                                "value": "AzureActiveDirectoryIDP"
                             },
                             {
                                 "label": "Azure Activity",
                                 "description": "This will only bring logs from the subscription selected in Basics tab. Relevant permissions at the subscription level are required.",
                                 "value": "AzureActivity",
-                                "enabled": true
                             },
                             {
                                 "label": "Dynamics 365",
                                 "description": "Relevant license and Global Admin or Security Admin permission required",
-                                "value": "Dynamics365",
-                                "enabled": true
+                                "value": "Dynamics365"
                             },
                             {
                                 "label": "Microsoft 365 Defender",
                                 "description": "This will only enable incident and alert synchronization, no advanced hunting data will be enabled. Relevant license and Global Admin or Security Admin permission required",
-                                "value": "Microsoft365Defender",
-                                "enabled": true
+                                "value": "Microsoft365Defender"
                             },
                             {
                                 "label": "Microsoft Defender for Cloud",
                                 "description": "Security Reader permission required",
-                                "value": "MicrosoftDefenderForCloud",
-                                "enabled": true
+                                "value": "MicrosoftDefenderForCloud"
                             },
                             {
                                 "label": "Microsoft Insider Risk Management",
                                 "description": "Relevant license and Global Admin or Security Admin permission required",
-                                "value": "OfficeIRM",
-                                "enabled": false
+                                "value": "OfficeIRM"
                             },
                             {
                                 "label": "Microsoft PowerBI",
                                 "description": "Relevant license and Global Admin or Security Admin permission required",
-                                "value": "OfficePowerBI",
-                                "enabled": false
+                                "value": "OfficePowerBI"
                             },
                             {
                                 "label": "Microsoft Project",
                                 "description": "Relevant license and Global Admin or Security Admin permission required",
-                                "value": "Office365Project",
-                                "enabled": false
+                                "value": "Office365Project"
                             },
                             {
                                 "label": "Office 365",
                                 "description": "Relevant license and Global Admin or Security Admin permission required",
-                                "value": "Office365",
-                                "enabled": true
+                                "value": "Office365"
                             },
                             {
                                 "label": "Threat Intelligence Platforms",
                                 "description": "Global Admin or Security Admin permission required",
-                                "value": "ThreatIntelligence",
-                                "properties":{
-                                    "format": "hidden"
-                                }
+                                "value": "ThreatIntelligence"
                             }
                           ],
                           "required": true
