@@ -572,7 +572,7 @@
                                 "label": "Threat Intelligence Platforms",
                                 "description": "Global Admin or Security Admin permission required",
                                 "value": "ThreatIntelligence",
-                                "visible": false
+                                "readOnly": false
                             }
                           ],
                           "required": true
