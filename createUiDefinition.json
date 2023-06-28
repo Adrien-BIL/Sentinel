@@ -364,8 +364,7 @@
                               {
                                   "label": "Microsoft Teams",
                                   "description": "Microsoft Sentinel for Teams provides Teams security logs visibility and threat protection.",
-                                  "value": "Microsoft Sentinel for Teams (Preview)",
-                                  "enabled": true
+                                  "value": "Microsoft Sentinel for Teams (Preview)"
                               },
                               {
                                   "label": "Threat Intelligence",
