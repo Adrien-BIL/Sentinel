@@ -291,7 +291,6 @@
                   {
                       "name": "enableSolutions1P",
                       "type": "Microsoft.Common.DropDown",
-                      "label": "Select Microsoft Content Hub solutions to install",
                       "placeholder": "",
                       "multiselect": true,
                       "filter": true,
